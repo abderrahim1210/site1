@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form novalidate>
+        CIN:<input name="cin" autocomplete="on" pattern="[A-Z]{1,2}[0-9]{1,}" required maxlength="8">
+        <br>
+        <input type="submit" value="Envoyer">
+        <button>Envoyer1</button>
+    <br>
+    <br>
+    <br>
+    Ville:<input list="ville" name="city">
+    <datalist id="ville">
+        <option>Casablanca</option>
+        <option>Fes</option>
+        <option>Agadir</option>
+        <option>Oujda</option>
+        <option>Ouarzazate</option>
+        <option>Ikniwen</option>
+    </datalist>
+</body>
+</html>
+<!-- novalidate=pas verfier -->

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DramaX</title>
+    <style>
+        body{
+            background-image: url("proxy-image.jpg");
+            background-attachment: fixed;
+
+        }
+
+        #Title{
+            color: white;
+            text-align: center;
+            padding: 60px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 10px;
+        }
+
+        #p1{
+            color: white;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-bottom: 60px;
+            text-shadow: 10px;
+        }
+
+        #search{
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 550px;
+            border-radius: 20px;
+            border: none;
+        }
+
+        #h2{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+
+        }
+
+        #p2{
+            font-family:'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+
+        #submit1{
+            padding: 10px;
+            margin-left: 660px;
+            margin-top: 5px;
+            background-color: darkslategrey;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+        #email{
+            border: none;
+            display: block;
+            margin: 20px;
+        }
+        fieldset{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        #pwd{
+            display: block;
+            margin: 20px;
+        }
+
+        span{
+            margin-left: 70px;
+        }
+    </style>
+</head>
+<body>
+    <form action="dramax_page.php" method="post">
+        <fieldset>
+            <span>Your email</span>
+            <input type="email" placeholder="Enter your email" id="email" name="EMAIL">
+            <label for="id=email"></label>
+            <input type="password" placeholder="enter your password" name="Password" id="pwd">
+            <label for="id=pwd"></label>
+        </fieldset>
+        <div class="container">
+            <div>
+                <h1 id="Title">D r a m a X</h1>
+                <p id="p1">Welcome to DramaX website for films and dramas korean !</p>
+                <input type="search" placeholder="    Tap here for search ..." name="search" id="search">
+                <label for="id=search"></label>
+                <br>
+                <input id="submit1" type="submit" value="search" name="SEARCH">
+            </div>
+            <br>
+            <br>
+            <br>
+            <hr style="color:white">
+            <h1 id="h2" style="color:white">Present</h1>
+            <p id="p2" style="color:white" >It is a channel that works on summarizing stories, series, and anime, whether they are K-drama, S-drama, Tejen, or American series. It has been a gallery of posts on TikTok and videos on YouTube since 2023, and we are continuing, God willing. This page will complete the content of our other channels on TikTok, YouTube and Facebook, and I hope that Find what you are looking for and welcome !</p>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.bundle.min (1).js"></script>
+    <title>Menu déroulant</title>
+</head>
+
+<body>
+    <!--button anime selection-->
+    <div class="container m-4">
+        <div class="dropdown dropend m-4">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">CLICK ME</button>
+            <ul class="dropdown-menu">
+                <li><a href="#" class="dropdown-item">LINK1</a></li>
+                <li><a href="#" class="dropdown-item">LINK2</a></li>
+                <li><hr href="#" class="dropdown-divider" /></li>
+                <li><a href="#" class="dropdown-item">LINK4</a></li>
+            </ul>
+        </div>
+
+        <!--les alertes-->
+
+        <div class="alert alert-success ">
+            <strong>success!</strong>bonjour
+        </div>
+        <div class="alert alert-success alert-dismissible fade show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>Success!</strong>
+        </div>
+
+        <!--les badges-->
+        <span class="badge bg-primary m-2">20 MESSAGES</span>
+        <BR>
+        <SPAn class="badge bg-primary rounded-pill m-2">15 MESSAGES</SPAn>
+        <br>
+        <button type="button" class="btn btn-primary m-2">
+            message<span class="badge bg-danger m-1">15</span>
+        </button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <textarea>>L'Office de la formation professionnelle et de la promotion du travail (OFPPT) est un opérateur public en formation professionnelle.</textarea>
+        <br>
+        <fieldset>
+            <legend><u>Gender</u></legend>
+            <input type="radio" id="id_male" name="genre" value="Masculin" checked>
+            <label for="id_male">Masculin</label>
+            <input type="radio" id="id_female" name="genre" value="Féminin">
+            <label for="id_female">Féminin</label>
+        </fieldset>
+        Age:<input type="number"name="age">
+        <br>
+        Quantité:<input type="number" min="0" max="20" step="5" name="qte">
+        <br>
+        <fieldset>
+            <legend><u>Sports:</u></legend>
+            <input type="checkbox" id="id_foot" name="sport" value="foot">
+            <label for="id_foot">Footbal</label>
+            <input type="checkbox" id="id_basket" name="sport" value="basket" checked>
+            <label for="id_basket">Basketball</label>
+            <input type="checkbox" id="id_tennis" name="sport" value="tennis">
+            <label for="id_tennis">Tennis</label>
+        </fieldset>
+        Ville:<select name="ville">
+            <option value=""></option>
+            <option value="casa">Casa</option>
+            <option value="ouarzazate">Ouarzazate</option>
+            <option value="azrou">Azrou</option>
+            <option value="tanger">Tanger</option>
+        </select>
+        <br>
+        <input type="button" value="Click ici" onclick="alert('Bonjoure')">
+        <br>
+        <input type="button" value="Click ici" onclick="f1()">
+        <br>
+        <input type="submit" value="Envoyer">
+        <br>
+        Couleur:<input type="color" name="coleur" value="#0000FF">
+        <input type="test">
+        <br>
+        <br>
+        Volume:<input type="range" name="vol" value="50" step="2">
+        <br>
+        Anniversaire<input type="date" name="birthay"> 
+        <br>
+        Heure<input type="time" id="birthdaytime" name="birthdaytime">
+        <br>
+        Rendez-vous:<input type="datetime-local" name="birthday">
+        <br>
+        Semaine:<input type="week" name="week">
+        <br>
+        Mois:<input type="month" name="mois">
+        <br>
+        fichier:<input type="file" name="fichier">
+        <br>
+        Image:<input type="file" name="fichier" multiple>
+        <br>
+        Email:<input type="email" name="mail">
+        <br>
+        Telephne:<input type="tel" name="phone" pattern="0[567][0-9]{8}" name="phone">
+    </form>
+</body>
+</html>
